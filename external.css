@@ -1,0 +1,89 @@
+body {
+  font-size: small;
+  background: url('C:\Users\Admin\Downloads\potato.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: rgb(255, 242, 0);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0%;
+  width: 250px;
+  height: 100%;
+  background-color: green;
+}
+
+.sidebar header {
+  color: yellow;
+  font-size: 50px;
+  line-height: 70px;
+  background: #379237;
+  padding: 20px;
+}
+
+.sidebar ul a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 30px;
+  font-size: 20px;
+  color: yellow;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.sidebar ul i {
+  color: #379237;
+}
+
+.Welcome {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  color: yellow;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+section {
+  position: relative;
+}
+
+section h2,
+section ul,
+footer {
+  position: relative;
+  z-index: 1;
+}
+
+section img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
